@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  font-family: montserrat;
+}
+
+.contato{
+  width: 100%;
+  display: flex;
+  background-color: aqua;
+}
+
+.contato1{
+  width: 33.33%;
+  height: 30px;
+  background-color: blue;
+  display: flex;
+  align-items: center ;
+  justify-content: center;
+}
+
+.contato1 a{
+  text-decoration: none;
+  color: white;
+}
+
+.contato1 a:hover{
+  color: aquamarine;
+  transition: 0.3s;
+}
+
+.container-menu{
+  display: flex;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu{
+  width: 16.66%;
+  height: 100px;
+  display: inline;
+  text-align: center;
+  padding: 0px 50px;
+}
+
+.menu a{
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.menu a:hover{
+  color: blue;
+  font-size: larger;
+}
+
+nav{
+  width: 100%;
+}
+
+.modelo-site-padrao img{
+  width: 100%;
+}
+
+.boas-vindas{
+  width: 100%;
+  height: 300px;
+  margin: 30px;
+  display: flex;
+}
+
+.boas-vindas-texto{
+  width: 50%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  overflow-y: hidden;
+  margin-right: 150px;
+}
+
+.boas-vindas-texto p{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.imagem-boas-vindas{
+  width: auto;
+  float: right;
+  height: 300px;
+}
+
+.rodape{
+  display: flex;
+  gap: 10px;
+  padding: 0px 50px 0px 50px;
+  background-color: blue;
+  color: white;
+}
+
+.saiba-mais{
+  text-align: center;
+}
+
+.saiba-mais img{
+  height: 50%;
+}
+
+.saiba-mais h2{
+  margin-bottom: 20px;
+}
+
+.saiba-mais p{
+  margin-bottom: 50px;
+}
+
+.btn-saiba-mais{
+  border-radius: 13px;
+  background-color: darkblue;
+  color: white;
+  height: 30px;
+  width: 90px;
+  transition: 0.3s;
+  border: 1px gray;
+}
+
+.btn-saiba-mais:hover{
+  background-color: blue;
+  color: white;
+  text-decoration: underline;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.btn-welcome{
+  width: 100px;
+  height: 30px;
+  background-color: blue;
+  color: white;
+  border-radius: 10px;
+  border: 1px gray;
+  transition: 0.3s;
+}
+
+.btn-welcome:hover{
+  background-color: white;
+  color: blue;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+
+.rodape img{
+  width: 100%;
+  overflow-y: hidden;
+}
+
+@media only screen and (max-width: 1140px){
+
+  .boas-vindas-texto p{
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+
+  .menu{
+    width: 20%;
+  }
+}
+
+@media only screen and (max-width: 930px){
+
+  .boas-vindas-texto p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+}
+
+@media only screen and (max-width: 704px){
+
+  .boas-vindas{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0px;
+  }
+
+  .boas-vindas img{
+    width: 100%;
+  }
+
+  .rodape p{
+    margin-bottom: 10px;
+  }
+
+  .boas-vindas-texto{
+    margin-bottom: 20px;
+    margin-right: 0px;
+  }
+
+  .rodape{
+    display: block;
+    width: 100%;
+  }
+
+  .rodape img{
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 550px){
+  .rodape{
+    display: block;
+    width: 100%;
+  }
+
+  .rodape img{
+    width: 100%;
+  }
+
+  .contato{
+    display: block;
+  }
+
+  .contato1{
+    width: 100%;
+  }
+
+  .container-menu{
+    display: block;
+  }
+
+  .menu{
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 437px){
+  .contato{
+    display: block;
+  }
+
+  .contato1{
+    width: 100%;
+  }
+
+  .container-menu{
+    display: block;
+  }
+
+  .menu{
+    margin-bottom: 10px;
+  }
+}
